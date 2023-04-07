@@ -10,13 +10,13 @@ pipeline {
         
         stage('Test') {
             steps {
-                sh 'echo "Testing... main"'
+                sh 'echo "Testing.. . main"'
             }
         }
         
         stage('Deploy') {
             steps {
-                sh 'echo "main Deploying..."'
+                sh 'echo "main Deploying .."'
             }
         }
     }
